@@ -1,0 +1,27 @@
+{
+  "name": "quantum-extension-pack-unicom",
+  "displayName": "Quantum Extension Pack (unicom)",
+  "description": "Recommanded extensions for Quantum (unicom)",
+  "publisher": "RyanCheng",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "icon": "quantum-icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yonder-DS/vs-code/tree/main/extensions/quantum-extension-pack-unicom"
+  },
+  "license": "GPL-3.0-only",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "ryancheng.quantum-language-configuration",
+    "idanp.smartmulticursor",
+    "fr43nk.seito-openfile",
+    "kuone.sequence-number",
+    "albert.tabout",
+    "stackbreak.comment-divider"
+  ]
+}
